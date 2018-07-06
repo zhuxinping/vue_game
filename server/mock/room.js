@@ -1,0 +1,42 @@
+module.exports = {
+  rooms: [
+    {
+      id: 1,
+      title: '幸运28',
+      desc:[
+        {roomId:1,oddDesc:'赔率说明',play:'玩法一(高赔率1%-3%回水)',pNum:12,type:0},
+        {roomId:2,oddDesc:'赔率说明',play:'玩法二(全网最高)',pNum:13,type:1},
+        {roomId:3,oddDesc:'赔率说明',play:'玩法一(最高回水18%)',pNum:14,type:2}
+        ]
+    },
+    {
+      id: 2,
+      title: '加拿大28',
+      desc:[
+        {roomId:1,oddDesc:'赔率说明',play:'玩法一(高赔率1%-3%回水)',pNum:12,type:3},
+        {roomId:2,oddDesc:'赔率说明',play:'玩法二(全网最高)',pNum:13,type:4},
+        {roomId:3,oddDesc:'赔率说明',play:'玩法一(最高回水18%)',pNum:14,type:5}
+      ]
+    },
+    {
+      id:3,
+      title: '北京PK10',
+      desc:[
+        {roomId:1,oddDesc:'赔率说明',play:'初级房',pNum:12,type:6},
+        {roomId:2,oddDesc:'赔率说明',play:'中级房',pNum:13,type:7},
+        {roomId:3,oddDesc:'赔率说明',play:'高级房',pNum:14,type:8},
+        {roomId:4,oddDesc:'赔率说明',play:'私密房',pNum:15,type:9},
+      ]
+    },
+    {
+      id: 4,
+      title: '幸运飞艇',
+      desc:[
+        {roomId:1,oddDesc:'赔率说明',play:'初级房',pNum:12,type:10},
+        {roomId:2,oddDesc:'赔率说明',play:'中级房',pNum:13,type:11},
+        {roomId:3,oddDesc:'赔率说明',play:'高级房',pNum:14,type:12},
+        {roomId:4,oddDesc:'赔率说明',play:'私密房',pNum:15,type:13},
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  setTimeout(() => {
+    console.log('定时器1开始了~')
+  }, 0);
+  Promise.resolve().then(() => {
+    console.log('promise1 开始了~')
+  });
+  setTimeout(() => {
+    console.log('定时器2开始了~')
+    Promise.resolve().then(() => {
+      console.log('promise2 开始了~')
+    })
+  }, 0);
+  console.log("---end---");
+</script>
+</body>
+</html>
